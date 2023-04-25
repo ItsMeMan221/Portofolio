@@ -1,0 +1,72 @@
+.jumbo-banner {
+  background-image: url("https://storage.googleapis.com/project-porto-bucket/2774835.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 15%;
+}
+.img-profile {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -8%;
+  border: solid 3px #f98007;
+}
+* {
+  font-family: "Roboto", sans-serif !important;
+  color: white !important;
+  background-color: #121212 !important;
+}
+.nama {
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.position {
+  letter-spacing: 2px;
+}
+.profile-singkat {
+  margin-top: 5%;
+}
+.card {
+  background-color: #424242 !important;
+  max-width: 65%;
+}
+.card-header {
+  background-color: #424242 !important;
+}
+.card-text {
+  font-size: 16px;
+}
+.content {
+  margin-top: 10%;
+}
+.content-bio-border {
+  border-top: 2px #f98007 solid;
+  border-bottom: 2px #f98007 solid;
+}
+.img-prof {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: solid 3px #f98007;
+}
+
+@media only screen and (max-width: 850px) {
+  .jumbo-banner {
+    background-image: url("https://storage.googleapis.com/project-porto-bucket/2774835.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 45%;
+  }
+  .img-profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -20%;
+    border: solid 3px #f98007;
+  }
+  .card {
+    max-width: 100%;
+  }
+}
